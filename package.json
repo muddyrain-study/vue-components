@@ -13,6 +13,7 @@
   "dependencies": {
     "@muddyrain-vue/components": "workspace:^",
     "@muddyrain-vue/theme-chalk": "workspace:^",
-    "@muddyrain-vue/utils": "workspace:^"
+    "@muddyrain-vue/utils": "workspace:^",
+    "vue": "^3.4.8"
   }
 }
