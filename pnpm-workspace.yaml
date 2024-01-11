@@ -1,0 +1,7 @@
+packages:
+  - packages/*
+  - documents
+  - examples
+  # exclude:
+  #   - packages/ignore-me
+  - "!**/test/**"
