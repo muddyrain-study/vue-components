@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "this is a utils package for vue",
   "main": "index.ts",
-  "types": "index.d.ts",
+  "types": "types.d.ts",
   "scripts": {
   },
   "keywords": [],
