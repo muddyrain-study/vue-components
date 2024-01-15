@@ -3,7 +3,8 @@
   "include": [
     "packages/components/**/*.ts",
     "packages/components/**/*.vue",
-    "packages/utils/**/*.ts"
+    "packages/utils/**/*.ts",
+    "vue-shim.d.ts",
   ],
   "exclude": [
     "src/**/__tests__/*"
