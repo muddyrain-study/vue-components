@@ -4,14 +4,16 @@
     "packages/components/**/*.ts",
     "packages/components/**/*.vue",
     "packages/utils/**/*.ts",
-    "vue-shim.d.ts",
+    "vue-shim.d.ts"
   ],
   "exclude": [
-    "src/**/__tests__/*"
+    "src/**/__tests__/*",
+    "packages/components/**/test/**"
   ],
   "compilerOptions": {
     "composite": true,
     "baseUrl": ".",
+    "declaration": true,
     "paths": {
       "@/*": [
         "./src/*"
